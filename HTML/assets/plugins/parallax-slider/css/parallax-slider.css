@@ -149,6 +149,7 @@
 }
 .da-arrows span{
 	background: transparent url(../img/arrows.png) no-repeat;
+/*	background-color: rgba(0,0,0,0.5);*/
 	position: absolute;
 	top: 50%;
 	height: 50px;

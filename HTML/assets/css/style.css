@@ -34,6 +34,49 @@
 	font-size: 3em;
 }
 
+.top a.btn-buy:hover {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.top .purchase .container {
+	border: transparent;
+/*	background-color: rgba(0,0,0,.1);*/
+}
+
+/*#top-donate-msg {
+	background-color: black;
+}*/
+
+.top .purchase {
+	margin-bottom: 1em;
+	padding: 0;
+}
+
+.top .purchase span p {
+	color: white;
+}
+
+.top .purchase a.btn-buy {
+	margin-top: 0;
+	padding: 5px 12px 4px;
+}
+
+#top-purchase {
+	height: 3em;
+}
+
+.top .purchase span {
+	font-size: 1.5em;
+	background: rgba(251, 139, 0, 1);
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 2px;
+}
+
+
 /*Block Headline*/
 .headline {
 	display: block;

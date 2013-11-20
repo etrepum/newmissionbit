@@ -16,13 +16,24 @@
 }
 
 .magazine-page span.magazine-badge {
-	top: 0;
-	right: 0;
+/*	top: 0;*/
+/*	right: 0;*/
+/*	left: 0;*/
 	color: #fff;
 	font-size: 14px;
 	padding: 2px 8px;
 	position: absolute;
 	font-style: inherit;
+}
+
+.col-md-6 .big {
+	top: 0;
+	left: 1em;
+}
+
+.col-md-6 .small {
+	top: 0;
+	left: 1em;
 }
 
 .magazine-page span.magazine-badge-default {

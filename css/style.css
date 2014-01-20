@@ -37,6 +37,14 @@ nav {
     margin-top: 4px;
 }
 
+@media (max-width: 840px) {
+    .opt-nav { display: none; }
+}
+@media (max-width: 930px) {
+    .opt-nav .social-icon { display: none; }
+    .opt-nav .donate { margin-top: 10px; }
+}
+
 /* Retina images */
 @media
     only screen and (-webkit-min-device-pixel-ratio: 1.5),

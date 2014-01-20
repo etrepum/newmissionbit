@@ -124,6 +124,13 @@
 	z-index: 2;
 	position: relative;
 	padding: 0 10px 10px;
+    float: left;
+    display: block;
+    width: 272px;
+    height: 72px;
+    background: url(/images/logo.png) no-repeat center center;
+    text-indent: -99999px;
+    margin: 18px 0;
 }
 
 /*Navbar*/
@@ -306,4 +313,31 @@
 		box-shadow: none;
 		background: none; 
 	}	
+}
+.header .main-nav.navbar-left {
+    margin: 33px 0px 0px 30px;
+    padding-left: 30px;
+}
+
+.header .nav-right {
+    margin: 42px 0;
+    font-size: 15px;
+}
+.header .nav-right a {
+    background-color: #3498db;
+    color: white;
+    display: inline-block;
+}
+.header .nav-right .btn-buy {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 4px;
+    padding-top: 5px;
+    line-height: 17px;
+}
+.header .nav-right a.fa {
+    width: 30px;
+    padding: 4px 5px;
+    font-size: 18px;
+    text-align: center;
 }

@@ -37,11 +37,8 @@ nav {
 }
 
 @media (max-width: 991px) {
-    #mbit header {
-        margin-bottom: inherit;
-    }
     .page-head {
-        margin: inherit;
+        margin-top: -25px;
         font-size: 120%;
     }
 }
@@ -72,6 +69,13 @@ nav {
     background-position: 50%;
     margin: 0;
     padding: 0;
+}
+
+@media (max-width: 768px) {
+    .homepage-image { height: 200px; min-width: 586px; }
+}
+@media (min-width:769px) and (max-width: 991px) {
+    .homepage-image { height: 300px; min-width: 391px; }
 }
 
 .homepage-image.img-anim-group-1 {

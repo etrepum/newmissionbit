@@ -342,9 +342,18 @@ footer address td.icon {
     text-shadow: #ffff8e 0 1px 0;
 }
 
-.share .actions .col-md-4:nth-child(1n+2) {
-    border-left: 1px solid;
+@media (max-width:991px) {
+    .share .actions .col-md-4:nth-child(1n+2) {
+        margin-top: 20px;
+        border-top: 1px solid #ddd;
+    }
 }
+@media (min-width:992px) {
+    .share .actions .col-md-4:nth-child(1n+2) {
+        border-left: 1px solid #ddd;
+    }
+}
+    
 
 .share .progress-ctr {
     padding-top: 5px;

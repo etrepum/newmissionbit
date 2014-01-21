@@ -82,6 +82,10 @@ nav {
     background-image: url(/images/home/groups-1.jpg);
 }
 
+.homepage-image.img-class-whiteboard-1 {
+    background-image: url(/images/home/class-whiteboard-1.jpg);
+}
+
 #mbit .donate-icon {
     font-size: 15px;
     margin-top: -5px;

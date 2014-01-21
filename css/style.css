@@ -8,7 +8,7 @@ nav {
     display: block;
     width: 150px;
     height: 40px;
-    background: url(/images/logo.png) no-repeat center center;
+    background: url(../images/logo.png) no-repeat center center;
     background-size: 136px 36px;
     text-indent: -99999px;
     margin: 6px 5px 5px 5px;
@@ -59,7 +59,7 @@ nav {
 }
 
 .homepage-image {
-    background: url(/images/home/anim-group-1.jpg);
+    background: url(../images/home/anim-group-1.jpg);
     min-width: 1172px;
     overflow: hidden;
     background-size: 100%;
@@ -75,15 +75,15 @@ nav {
 }
 
 .homepage-image.img-anim-group-1 {
-    background-image: url(/images/home/anim-group-1.jpg);
+    background-image: url(../images/home/anim-group-1.jpg);
 }
 
 .homepage-image.img-groups-1 {
-    background-image: url(/images/home/groups-1.jpg);
+    background-image: url(../images/home/groups-1.jpg);
 }
 
 .homepage-image.img-class-whiteboard-1 {
-    background-image: url(/images/home/class-whiteboard-1.jpg);
+    background-image: url(../images/home/class-whiteboard-1.jpg);
 }
 
 #mbit .donate-icon {
@@ -245,6 +245,6 @@ footer a {
     only screen and (min-device-pixel-ratio: 1.5),
     only screen and (min-resolution: 1.5dppx) {
     .navbar-brand {
-        background-image: url(/images/logo@2x.png);
+        background-image: url(../images/logo@2x.png);
     }
 }

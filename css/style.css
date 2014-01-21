@@ -255,7 +255,7 @@ footer address td.icon {
     font-size: 50px;
 }
 
-#mbit .share {
+#mbit .share-button {
     text-transform: uppercase;
     font-family: 'UbuntuRegular', sans-serif;
     color: #fff;
@@ -264,8 +264,110 @@ footer address td.icon {
     border: none;
     width: 500px;
 }
-#mbit .share:hover, #mbit .share:focus {
+#mbit .share-button:hover, #mbit .share-button:focus {
     background: #3aa9f2;
+}
+
+#mbit {
+    background-color: #f0f0f0;
+}
+#mbit.share {
+    margin: 0;
+}
+#mbit.share header {
+    padding: 2px 0px 10px 0px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+.share header h1 {
+    text-align: center;
+}
+.share .copyright {
+    border-top: 1px solid #eee;
+    text-align: center;
+    background: inherit;
+    color: #999;
+}
+#mbit .share-cta {
+    background-color: white;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.share .actions {
+    text-align: center;
+}
+.share .actions h2 {
+    font-family: 'UbuntuMedium', sans-serif;
+    color: black;
+}
+
+.share .actions .byline {
+    color: #666;
+    margin: 10px 0;
+}
+
+.share .actions button {
+    font-weight: bold;
+    border: 1px solid #1a1a1a;
+    border-radius: 6px;
+    font-size: 24px;
+    line-height: 48px;
+    padding: 0 20px;
+    margin: 0;
+    cursor: pointer;
+}
+.share .actions button:hover {
+    opacity: 0.9;
+}
+.share .actions button.facebook {
+    background: #3b5998;
+    background-image: linear-gradient(#4b71c1, #3b5998);
+    color: #fff;
+    box-shadow: inset 0 1px 0 0 #5b8aeb;
+    text-shadow: #3b5998 0 1px 0;
+}
+.share .actions button.twitter {
+    background: #2578b4;
+    background-image: linear-gradient(#58a8e2, #2578b4);
+    color: #fff;
+    box-shadow: inset 0 1px 0 0 #88c1ec;
+    text-shadow: #2578b4 0 1px 0;
+}
+.share .actions button.play {
+    background: #87c442;
+    background-image: linear-gradient(#9fd04f, #87c442);
+    box-shadow: inset 0 1px 0 0 #b7dc63;
+    text-shadow: #ffff8e 0 1px 0;
+}
+
+.share .actions .col-md-4:nth-child(1n+2) {
+    border-left: 1px solid;
+}
+
+.share .progress-ctr {
+    padding-top: 5px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -15px;
+    border-top: 1px solid #ccc;
+}
+
+.share .progress .progress-bar {
+    text-align: right;
+    background: #87C442;
+    background-image: linear-gradient(#9fd04f, #87c442);
+    height: 30px;
+}
+.share .progress .number {
+    color: #000;
+    font-family: 'UbuntuMedium', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 4px;
 }
 
 .color-blue { color: #3498db; }

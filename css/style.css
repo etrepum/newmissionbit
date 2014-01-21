@@ -33,6 +33,7 @@ nav {
     margin: -30px inherit auto auto;
     color: white;
     font-size: 150%;
+    font-family: 'UbuntuRegular', sans-serif;
 }
 
 @media (max-width: 991px) {
@@ -43,6 +44,23 @@ nav {
         margin: inherit;
         font-size: 120%;
     }
+}
+
+.section h2 {
+    font-family: 'SourceCodeProSemiBold', sans-serif;
+    text-align: center;
+}
+
+.headline h2 {
+    font-family: 'SourceCodeProSemiBold', sans-serif;
+}
+
+.section {
+    font-size: 120%;
+}
+
+.section ul {
+    margin-left: -20px;
 }
 
 .homepage-image {
@@ -79,13 +97,25 @@ nav {
     color: #ed9c28;
 }
 
-#mbit .donate {
-    font-family: 'UbuntuMedium', sans-serif;
-    color: #fff;
+.campaign-alert {
+    text-align: center;
 }
-#mbit .donate:hover,
-#mbit .donate:focus {
-    background-color: #eb9316;
+
+.donate-ctr {
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+
+#mbit .donate {
+    text-transform: uppercase;
+    font-family: 'UbuntuRegular', sans-serif;
+    color: #fff;
+    background: #f0ad4e;
+    text-shadow: none;
+    border: none;
+}
+#mbit .donate:hover, #mbit .donate:focus {
+    background: #ed9c28;
 }
 
 /* Retina images */

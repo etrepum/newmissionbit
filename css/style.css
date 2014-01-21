@@ -89,6 +89,9 @@ nav {
 .homepage-image.img-class-whiteboard-1 {
     background-image: url(../images/home/class-whiteboard-1.jpg);
 }
+.homepage-image.img-video-1 {
+    background-image: url(../images/home/video-1.jpg);
+}
 
 #mbit .donate-icon {
     font-size: 15px;
@@ -111,10 +114,21 @@ nav {
 .campaign-alert {
     text-align: center;
 }
+iframe.campaign-alert {
+    margin: 30px 15px 15px 15px;
+    float: right;
+}
 
 .donate-ctr {
     text-align: center;
     margin: 50px auto 30px auto;
+}
+
+.vimeo .donate-ctr {
+    margin: 0px auto inherit auto;
+}
+.vimeo .donate {
+    width: 500px;
 }
 
 #mbit .donate {
@@ -143,6 +157,11 @@ footer,
 footer a {
     color: #3498db;
     font-weight: 500;
+}
+
+footer address td.icon {
+    text-align: center;
+    padding-right: 10px;
 }
 
 .copyright {
@@ -204,7 +223,6 @@ footer a {
     transition: box-shadow 0.2s ease-in-out;
 }
 
-
 .testimonials .testimonial-info img {
     width: 60px;
     height: 60px;
@@ -235,6 +253,19 @@ footer a {
 .promo-box i {
     display: block;
     font-size: 50px;
+}
+
+#mbit .share {
+    text-transform: uppercase;
+    font-family: 'UbuntuRegular', sans-serif;
+    color: #fff;
+    background: #3498db;
+    text-shadow: none;
+    border: none;
+    width: 500px;
+}
+#mbit .share:hover, #mbit .share:focus {
+    background: #3aa9f2;
 }
 
 .color-blue { color: #3498db; }

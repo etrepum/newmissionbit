@@ -1,7 +1,5 @@
-@import url(//fonts.googleapis.com/css?family=Ubuntu:500);
-
 nav {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'UbuntuMedium', sans-serif;
     font-weight: 500;
     font-size: 1.25em;
 }
@@ -16,33 +14,78 @@ nav {
     margin: 6px 5px 5px 5px;
 }
 
-.social-icon {
+#mbit .social-icon {
     font-size: 30px;
-    line-height: 45px;
-    color: #bbb;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.donate {
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 14px;
-    margin-top: -10px;
+#mbit header {
+    margin-bottom: 0;
 }
 
-.social-icon:hover {
-    text-decoration: none;
-    color: #333;
+.page-head {
+    width: 90%;
+    left: 5%;
+    background-color: #3498db;
+    text-align: center;
+    padding: 10px 0;
+    margin: -30px inherit auto auto;
+    color: white;
+    font-size: 150%;
 }
 
-.nav-right {
-    margin-top: 4px;
+@media (max-width: 991px) {
+    #mbit header {
+        margin-bottom: inherit;
+    }
+    .page-head {
+        margin: inherit;
+        font-size: 120%;
+    }
 }
 
-@media (max-width: 840px) {
-    .opt-nav { display: none; }
+.homepage-image {
+    background: url(/images/home/anim-group-1.jpg);
+    min-width: 1172px;
+    overflow: hidden;
+    background-size: 100%;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    z-index: -1;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin: 0;
+    padding: 0;
 }
-@media (max-width: 930px) {
-    .opt-nav .social-icon { display: none; }
-    .opt-nav .donate { margin-top: 10px; }
+
+#mbit .donate-icon {
+    font-size: 15px;
+    margin-top: -5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.donate-icon .fa-usd {
+    font-weight: bold;
+}
+.donate-icon .fa-square {
+    color: #f0ad4e;
+}
+.donate-icon:hover .fa-square,
+.donate-icon:focus .fa-square {
+    color: #ed9c28;
+}
+
+#mbit .donate {
+    font-family: 'UbuntuMedium', sans-serif;
+    color: #fff;
+}
+#mbit .donate:hover,
+#mbit .donate:focus {
+    background-color: #eb9316;
 }
 
 /* Retina images */

@@ -20,390 +20,109 @@
     <link rel="stylesheet" href="/vendor/bootstrap-3.0.3/css/bootstrap.css">
     <link rel="stylesheet" href="/vendor/bootstrap-3.0.3/css/bootstrap-theme.css">
     <link rel="stylesheet" href="/vendor/font-awesome-4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="/vendor/ubuntu/stylesheet.css">
     <!-- Local CSS -->
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body>
+<body id="mbit">
 
-<!--=== Navbar ===-->
-<nav class="navbar navbar-default" role="navigation">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <!-- TODO can we use fa-bars for these bars? -->
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/">Mission Bit</a>
-    </div>
-    <div class="collapse navbar-collapse navbar-responsive-collapse">
-        <ul class="nav navbar-nav">
-            <li class="menu-item menu-about-us">
-                <a href="/about-us/">About Us</a>
-            </li>
-            <li class="menu-item menu-programs">
-                <a href="/programs/">Programs</a>
-            </li>
-            <li class="menu-item menu-news-press">
-                <a href="/news-press/">News &amp; Press</a>
-            </li>
-            <li class="menu-item menu-get-involved">
-                <a href="/get-involved/">Get Involved</a>
-            </li>
-            <li class="menu-item menu-apply">
-                <a href="/apply/">Apply</a>
-            </li>
-        </ul>
-        <div class="opt-nav nav-right pull-right">
-            <a aria-label="Facebook" class="social-icon fa fa-facebook-square" href="https://www.facebook.com/missionbit" target="_blank"></a>
-            <a aria-label="Twitter" class="social-icon fa fa-twitter-square" href="https://twitter.com/MissionBit" target="_blank"></a>
-            <a aria-label="GitHub" class="social-icon fa fa-github-square" href="https://github.com/MissionBit" target="_blank"></a>
-            <a href="/donate/" class="donate btn btn-warning btn-sm">Donate Now</a> 
-        </div>
-    </div><!-- /navbar-collapse -->
-</nav>
-
-<!--=== Slider ===-->
-<div class="slider-inner">
-    <div id="da-slider" class="da-slider">
-        <div class="da-slide">
-            <h2><i> FREE CODING CLASSES </i> <br /> <i> FOR PUBLIC SCHOOL STUDENTS</i> <br /> <i> IN SAN FRANCISCO, CALIFORNIA </i></h2>
-            <p><!-- <i>MI SSION BIT </i> </br> -->
-            <i> TEACHING MORE KIDS TO CODE </i> </br>
-            <i> ACCELERATING SKILL DEVELOPMENT </i></br>
-            <i> PROFESSIONAL &amp; ACADEMIA ALIGNMENT </i></p>
-            <div id="promo-video" class="da-img pull-right">
-                <iframe src="http://player.vimeo.com/video/78357006" width="530" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-            </div>
-        </div>
-        <div class="da-slide">
-            <h2><i> SEMESTER BASED CLASSES </i> <br /> <i> PROJECT BASED INSTRUCTION  </i> <br /> <i> CLASSES FOR ALL SKILL LEVELS </i></h2>
-            <p>
-            <i> INTERNSHIP OPPORTUNITIES</i> </br>
-            <i> SF UNIFIED CREDITS </i></p>
-            <div id="promo-video" class="da-img pull-right">
-                <iframe src="http://player.vimeo.com/video/78357006" width="530" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-            </div>
-        </div>
-        <div class="da-arrows">
-            <span class="da-arrows-prev"></span>
-            <span class="da-arrows-next"></span>
-        </div>
-    </div><!--/da-slider-->
-</div><!--/slider-->
-<!--=== End Slider ===-->
-
-<!--=== Purchase Block ===-->
-<div class="purchase">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-9">
-                <span> Mission Bit is a 501(c)3 non-profit </span>
-                <p> Mission Bit's operating model is highly efficient. The cost per student per semester is less than $1500. This cost model is scalable. </p>
-            </div>
-            <div class="col-md-3">
-                <a href="html/missionbit_donate.html" class="btn-buy hover-effect"> Donate Now </a>
-            </div>
-        </div>
-    </div>
+<div class="alert alert-warning alert-dismissable campaign-alert">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    <strong>It's not too late to score some exclusive Mission Bit swag!</strong>
+    Our <a href="http://igg.me/at/missionbit" target="_blank">Spring 2014 crowdfunding campaign</a> is still going strong, check it out!
 </div>
-<!-- End Purchase Block -->
 
-<!--=== Content Part ===-->
-<div class="container">
-	<!-- Service Blocks -->
-	<div class="row">
-    	<div class="col-md-4">
-    		<div class="service">
-                <i class="icon-bullhorn service-icon"></i>
-    			<div class="desc">
-    				<h4> Increasing Reach </h4>
-                    <p> Mission Bit's 'intro to computer programming' class creates an opportunity for 'net new' students to explore computer programming as a potential academic and professional pursuit.</p>
-    			</div>
-    		</div>
-    	</div>
-    	<div class="col-md-4">
-    		<div class="service">
-                <i class="icon-rocket service-icon"></i>
-    			<div class="desc">
-    				<h4> Accelerating Education </h4>
-                    <p> Mission Bit classes provides an opportunity for students planning to study and/or work in computer science to develop a base understanding of CS principles before taking a CS class offered at their school. </p>
-    			</div>
-    		</div>
-    	</div>
-    	<div class="col-md-4">
-    		<div class="service">
-                <i class="icon-money service-icon"></i>
-    			<div class="desc">
-    				<h4> Workforce Skill Development </h4>
-                    <p> Mission Bit classes equip public school students studying CS in school with complementary knowledge and Skillls that increases their preparedness for professional opportunities. </p>
-    			</div>
-    		</div>
-    	</div>
-	</div><!--/row-->
-	<!-- End Service Blokcs -->
-    <hr>
 
-	<!-- Recent Works -->
-    <div class="headline"><h2>Highlights</h2></div>
-    <div class="row">
-        <div class="col-md-3 col-sm-6">
-            <div class="thumbnails thumbnail-style thumbnail-kenburn">
-            	<div class="thumbnail-img">
-                    <div class="overflow-hidden">
-                        <img class="img-responsive" src="html/assets/img/coding888.jpg" alt="" />
-                    </div>
-                    <a class="btn-more hover-effect" href="html/missionbit_team_instructors.html">read more +</a>
-                </div>
-                <div id="home-highlights" class="caption">
-                    <h3><a class="hover-effect" href="html/missionbit_team_instructors.html"> Individual Attention </a></h3>
-                    <p> Mission Bit provides an attentive learning environment with a 5:1 student to teacher ratio </p>
-                </div>
-            </div>
+<!--=== Header ===-->
+<header class="navbar navbar-default" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <!-- TODO can we use fa-bars for these bars? -->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Mission Bit</a>
         </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="thumbnails thumbnail-style thumbnail-kenburn">
-                <div class="thumbnail-img">
-                    <div class="overflow-hidden">
-                        <img class="img-responsive" src="html/assets/img/opportunity.jpg" alt="" />
-                    </div>
-                    <a class="btn-more hover-effect" href="html/missionbit_fall2013semester.html">read more +</a>
-                </div>
-                <div id="home-highlights" class="caption">
-                    <h3><a class="hover-effect" href="html/missionbit_fall2013semester.html"> Company Visits </a></h3>
-                    <p> Mission Bit classes take field trips to SF based tech companies to speak with professional engineers. These visits help close that confidence gap and expose them to different industries and roles to which they can apply their computer programming skills.  </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="thumbnails thumbnail-style thumbnail-kenburn">
-                <div class="thumbnail-img">
-                    <div class="overflow-hidden">
-                        <img class="img-responsive" src="html/assets/img/internships.jpeg" alt="" />
-                    </div>
-                    <a class="btn-more hover-effect" href="html/missionbit_aboutus.html">read more +</a>
-                </div>
-                <div class="caption">
-                    <h3><a class="hover-effect" href="html/missionbit_aboutus.html"> Internships </a></h3>
-                    <p> Mission Bit is actively working with SF based tech companies to place exceptional Mission Bit students into paid internships </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="thumbnails thumbnail-style thumbnail-kenburn">
-                <div class="thumbnail-img">
-                    <div class="overflow-hidden">
-                        <img class="img-responsive" src="html/assets/img/aligned.jpg" alt="" />
-                    </div>
-                    <a class="btn-more hover-effect" href="html/missionbit_curriculum.html">read more +</a>
-                </div>
-                <div class="caption">
-                    <h3><a class="hover-effect" href="html/missionbit_curriculum.html"> Curriculum Alignment </a></h3>
-                    <p> Mission Bit is focused on creating a curriculum that aligns with and complements CS classes being taught in SF Unified pubic schools, CS departments at City and State colleges and other non-profits focused on free computer programming education. </p>
-                </div>
-            </div>
+        <nav class="collapse navbar-collapse navbar-responsive-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="menu-item menu-about-us">
+                    <a href="/about-us/">About Us</a>
+                </li>
+                <li class="menu-item menu-programs">
+                    <a href="/programs/">Programs</a>
+                </li>
+                <li class="menu-item menu-get-involved">
+                    <a href="/get-involved/">Get Involved</a>
+                </li>
+                <li class="menu-item menu-apply">
+                    <a href="/apply/">Apply</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="menu-item">
+                    <a aria-label="Facebook" title="Facebook" class="social-icon fa fa-facebook-square" href="https://www.facebook.com/missionbit" target="_blank"></a>
+                </li>
+                <li class="menu-item">
+                    <a aria-label="Twitter" title="Twitter" class="social-icon fa fa-twitter-square" href="https://twitter.com/MissionBit" target="_blank"></a>
+                </li>
+                <li class="menu-item">
+                    <a aria-label="GitHub" title="GitHub" class="social-icon fa fa-github-square" href="https://github.com/MissionBit" target="_blank"></a>
+                </li>
+                <li class="menu-item">
+                    <a aria-label="Donate" title="Donate Today!" class="donate-icon" href="/donate/" target="_blank">
+                        <span class="fa-stack">
+                            <span class="fa fa-square fa-stack-2x"></span>
+                            <span class="fa fa-inverse fa-usd fa-stack-1x"></span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav><!-- /navbar-collapse -->
+    </div><!-- /container -->
+</header>
+
+<div class="homepage-image hidden-xs hidden-sm">
+</div>
+
+<!-- container -->
+<div class="container" role="main">
+    <div class="page-head">
+        <span>Free Coding Classes for Public School Students in San Francisco, CA</span>
+    </div>
+</div><!-- /container -->
+
+<footer class="container" role="contentinfo">
+    <div class="row contact-info">
+        <div class="col-md-6 md-margin-bottom-40">
+            <!-- Monthly Newsletter -->
+            <div class="headline"><h2>Mission Bit Newsletter</h2></div>
+            <p> Email us to subscribe to our newsletter!</p>
+            <h4> info [at] missionbit [dot] com </h4>
+        </div><!--/col-md-6-->
+    
+        <div class="col-md-6">
+            <!-- Monthly Newsletter -->
+            <div class="headline"><h2>Contact Us</h2></div>
+            <address class="md-margin-bottom-40">
+                SF, CA <br />
+                info [at] missionbit [dot] com <br />
+                Twitter: <a href="https://twitter.com/missionbit" target="_blank">@missionbit</a><br />
+                Facebook: <a href="https://facebook.com/MissionBit" target="_blank">facebook.com/missionbit</a>
+            </address>
+        </div><!--/col-md-6-->
+    </div><!--/row-->
+    <div class="row copyright">
+        <div class="col-md-6">
+            <p class="copyright-space">
+                2014 &copy; Mission Bit. A 501(c)3 Non-Profit. ALL Rights Reserved.
+            </p>
         </div>
     </div><!--/row-->
-	<!-- End Recent Works -->
-    <hr>
-
-	<!-- Info Blokcs -->
-	<div class="row">
-    	<!-- Welcome Block -->
-		<div class="col-md-6">
-			<div class="headline"><h2> Out of Site. Featured Program Partner </h2></div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <img class="img-responsive margin-bottom-10" src="html/assets/img/main/OoSlogo_MB_site.png" alt="" />
-                </div>
-                <div class="col-sm-8">
-                    <p> Out of Site is a co-producer of Mission Bit classes. Out of Site is a non-profit that provides free after school and summer programming in visual and performing arts to public high school students in San Francisco. </br>
-                    Out of Site  programs fill a gap for teenagers – not only are they not getting enough art in their schools but there are few safe, free, fun and challenging programs for teens. Students come to Out of Site looking for the chance to experiment in the arts, and for a place to be themselves-they find artistic training, new mediums for self-expression, and a diverse and supportive community.</p>
-                </div>
-            </div>
-        </div><!--/col-md-8-->
-
-        <div class="col-md-6">
-            <div class="headline"><h2>Lead Instructors</h2></div>
-                <div class="row team margin-bottom-10">
-                    <div class="col-sm-6">
-                        <div class="thumbnail-style">
-                            <img alt="" src="html/assets/img/brianclark.jpg" class="img-responsive">
-                            <h3><a>Brian Clark </a> <small>CEO, Silith.io</small></h3>
-<!--                             <p>Brian Description </p> -->
-                            <ul class="list-unstyled list-inline team-socail">
-                                <li><a href="http://www.twitter.com/blaurenceclark"><i class="icon-twitter"></i></a></li>
-                                <li><a href="http://www.linkedin.com/pub/brian-clark/14/759/41"><i class="icon-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="thumbnail-style">
-                            <img alt="" src="html/assets/img/bob3.jpg" class="img-responsive">
-                            <h3><a>Bob Ippolito</a> <small>Entrepreneur, Maker of Things </small></h3>
-<!--                             <p>Bob description</p> -->
-                            <ul class="list-unstyled list-inline team-socail">
-                                <li><a href="http://twitter.com/etrepum"><i class="icon-twitter"></i></a></li>
-                                <li><a href="http://www.linkedin.com/in/bobippolito"><i class="icon-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
- 	</div> <!--/row -->
-	<!-- End Info Blocks -->
-
-    <hr>
-	<!-- Our Clients -->
-	<div id="clients-flexslider" class="flexslider home clients">
-        <div class="headline"><h2> Supporting Partners </h2></div>
-		<ul class="slides">
-			<li class="dena">
-                <a href="http://www.denajobs.com/">
-                    <img src="html/assets/img/clients/DeNA_Logo_Black.png" alt="" />
-                    <img src="html/assets/img/clients/DeNA_Logo_Black.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li class="evb">
-                <a href="http://www.evb.com/">
-                    <img src="html/assets/img/clients/EVB_logopng.png" alt="" />
-                    <img src="html/assets/img/clients/EVB_logopng.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li id="hackreactor" class="hackreactor">
-                <a href="http://www.hackreactor.com/">
-                    <img src="html/assets/img/clients/HR_logo_big.png" alt="" title="Hack Reactor" />
-                    <img src="html/assets/img/clients/HR_logo_big.png" class="color-img" alt="" title="Hack Reactor" />
-                </a>
-            </li>
-            <li class="codeschool">
-                <a href="http://www.codeschool.com">
-                    <img src="html/assets/img/clients/brackets_banner_logo-color.png" alt="" title="Code School"/>
-                    <img src="html/assets/img/clients/brackets_banner_logo-color.png" class="color-img" alt="" title="Code School"/>
-                </a>
-            </li>
-<!-- 			<li>
-                <a href="#">
-                    <img src="html/assets/img/clients/pop17_MB_site.jpeg" alt="" />
-                    <img src="html/assets/img/clients/pop17_MB_site.jpeg" class="color-img" alt="" />
-                </a>
-            </li> -->
-            <li class="dena">
-                <a href="http://www.denajobs.com/">
-                    <img src="html/assets/img/clients/DeNA_Logo_Black.png" alt="" />
-                    <img src="html/assets/img/clients/DeNA_Logo_Black.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li class="evb">
-                <a href="http://www.evb.com/">
-                    <img src="html/assets/img/clients/EVB_logopng.png" alt="" />
-                    <img src="html/assets/img/clients/EVB_logopng.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li id="hackreactor" class="hackreactor">
-                <a href="http://www.hackreactor.com/">
-                    <img src="html/assets/img/clients/HR_logo_big.png" alt="" title="Hack Reactor" />
-                    <img src="html/assets/img/clients/HR_logo_big.png" class="color-img" alt="" title="Hack Reactor" />
-                </a>
-            </li>
-            <li class="codeschool">
-                <a href="http://www.codeschool.com">
-                    <img src="html/assets/img/clients/brackets_banner_logo-color.png" alt="" title="Code School"/>
-                    <img src="html/assets/img/clients/brackets_banner_logo-color.png" class="color-img" alt="" title="Code School"/>
-                </a>
-            </li>
-<!--             <li>
-                <a href="#">
-                    <img src="html/assets/img/clients/pop17_MB_site.jpeg" alt="" />
-                    <img src="html/assets/img/clients/pop17_MB_site.jpeg" class="color-img" alt="" />
-                </a>
-            </li> -->
-            <li class="dena">
-                <a href="http://www.denajobs.com/">
-                    <img src="html/assets/img/clients/DeNA_Logo_Black.png" alt="" />
-                    <img src="html/assets/img/clients/DeNA_Logo_Black.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li class="evb">
-                <a href="http://www.evb.com/">
-                    <img src="html/assets/img/clients/EVB_logopng.png" alt="" />
-                    <img src="html/assets/img/clients/EVB_logopng.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li id="hackreactor" class="hackreactor">
-                <a href="http://www.hackreactor.com/">
-                    <img src="html/assets/img/clients/HR_logo_big.png" alt="" title="Hack Reactor" />
-                    <img src="html/assets/img/clients/HR_logo_big.png" class="color-img" alt="" title="Hack Reactor" />
-                </a>
-            </li>
-            <li class="codeschool">
-                <a href="http://www.codeschool.com">
-                    <img src="html/assets/img/clients/brackets_banner_logo-color.png" alt="" title="Code School"/>
-                    <img src="html/assets/img/clients/brackets_banner_logo-color.png" class="color-img" alt="" title="Code School"/>
-                </a>
-            </li>
-<!--             <li>
-                <a href="#">
-                    <img src="html/assets/img/clients/pop17_MB_site.jpeg" alt="" />
-                    <img src="html/assets/img/clients/pop17_MB_site.jpeg" class="color-img" alt="" />
-                </a>
-            </li> -->
-		</ul>
-	</div><!--/flexslider-->
-	<!-- End Our Clients -->
-</div><!--/container-->
-<!-- End Content Part -->
-
-<!--=== Footer ===-->
-<div class="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 md-margin-bottom-40">
-
-	            <!-- Monthly Newsletter -->
-		        <div class="headline"><h2>Mission Bit Newsletter</h2></div>
-                <p> Email us to subscribe to our newsletter!</p>
-                <h4> info [at] missionbit [dot] com </h4>
-<!-- 				<form class="footer-subsribe">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Email Address">
-                        <span class="input-group-btn">
-                            <button class="btn-u" type="button">Subscribe</button>
-                        </span>
-                    </div> --><!-- /input-group -->
-<!-- 				</form> -->
-			</div><!--/col-md-4-->
-
-			<div class="col-md-6">
-	            <!-- Monthly Newsletter -->
-		        <div class="headline"><h2>Contact Us</h2></div>
-                <address class="md-margin-bottom-40">
-					SF, CA <br />
-					info [at] missionbit [dot] com <br />
-                    Twitter: @missionbit <br />
-                    Facebook: facebook/missionbit
-                </address>
-			</div><!--/col-md-4-->
-		</div><!--/row-->
-	</div><!--/container-->
-</div><!--/footer-->
-<!--=== End Footer ===-->
-
-<!--=== Copyright ===-->
-<div class="copyright">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-	            <p class="copyright-space">
-                    2014 &copy; Mission Bit. A 501(c)3 Non-Profit. ALL Rights Reserved.
-                </p>
-			</div>
-		</div><!--/row-->
-	</div><!--/container-->
-</div><!--/copyright-->
-<!--=== End Copyright ===-->
+</footer>
 
 <!-- Vendor JS -->
 <script src="/vendor/jquery-2.0.3/jquery-2.0.3.min.js"></script>

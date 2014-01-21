@@ -268,10 +268,8 @@ footer address td.icon {
     background: #3aa9f2;
 }
 
-#mbit {
-    background-color: #f0f0f0;
-}
 #mbit.share {
+    background-color: #f0f0f0;
     margin: 0;
 }
 #mbit.share header {

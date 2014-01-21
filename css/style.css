@@ -46,11 +46,6 @@ nav {
     }
 }
 
-.section h2 {
-    font-family: 'SourceCodeProSemiBold', sans-serif;
-    text-align: center;
-}
-
 .headline h2 {
     font-family: 'SourceCodeProSemiBold', sans-serif;
 }
@@ -111,7 +106,7 @@ nav {
 
 .donate-ctr {
     text-align: center;
-    margin: 20px auto 20px auto;
+    margin: 50px auto 30px auto;
 }
 
 #mbit .donate {
@@ -149,7 +144,7 @@ footer a {
 }
 
 .headline {
-    margin: 10px 0 25px 0;
+    margin: 30px 0 15px 0;
     border-bottom: 1px dotted #e4e9f0;
 }
 
@@ -157,6 +152,87 @@ footer a {
     display: inline;
     border-bottom: 2px solid #3498db;
 }
+
+.team h3 {
+    font-family: 'UbuntuRegular', sans-serif;
+}
+
+.team small {
+    display: block;
+    font-size: 12px;
+    margin-top: 2px;
+    font-family: 'UbuntuRegular', sans-serif;
+}
+
+.team .team-social li {
+    padding: 0;
+}
+
+.team .team-social li i {
+    font-size: 20px;
+    padding: 3px;
+    min-width: 30px;
+    text-align: center;
+    background: #f7f7f7;
+    color: #aaa;
+    display: inline-block;
+}
+.team .team-social li i:hover {
+    background: #3498db;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.team ul.team-social {
+    text-align: right;
+}
+
+.team .thumbnail-style {
+    padding: 12px;
+}
+
+.team .thumbnail-style:hover {
+    box-shadow: 0 0 8px #ddd;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+
+.testimonials .testimonial-info img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 2px;
+    margin-right: 15px;
+    border: solid 1px #ccc;
+    border-radius: 50%;
+}
+
+.testimonials p {
+    margin-top: 5px;
+}
+.testimonials .testimonial-info {
+    color: #3498db;
+}
+.testimonials .testimonial-info em {
+    color: #777;
+    display: block;
+}
+
+.promo-box {
+    padding: 20px;
+    margin: 25px 0 20px;
+    text-align: center;
+}
+
+.promo-box i {
+    display: block;
+    font-size: 50px;
+}
+
+.color-blue { color: #3498db; }
+.color-orange { color: #e67e22; }
+.color-red { color: #e74c3c; }
+.color-sea { color: #1abc9c; }
 
 /* Retina images */
 @media

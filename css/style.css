@@ -79,6 +79,14 @@ nav {
     padding: 0;
 }
 
+.homepage-image.img-anim-group-1 {
+    background-image: url(/images/home/anim-group-1.jpg);
+}
+
+.homepage-image.img-groups-1 {
+    background-image: url(/images/home/groups-1.jpg);
+}
+
 #mbit .donate-icon {
     font-size: 15px;
     margin-top: -5px;
@@ -116,6 +124,38 @@ nav {
 }
 #mbit .donate:hover, #mbit .donate:focus {
     background: #ed9c28;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px 0 30px;
+}
+
+footer,
+.copyright {
+    color: #dadada;
+    background: black;
+}
+
+footer a {
+    color: #3498db;
+    font-weight: 500;
+}
+
+.copyright {
+    border-top: 1px solid #777;
+    padding: 11px 0 7px;
+    font-size: 12px;
+}
+
+.headline {
+    margin: 10px 0 25px 0;
+    border-bottom: 1px dotted #e4e9f0;
+}
+
+.headline h2 {
+    display: inline;
+    border-bottom: 2px solid #3498db;
 }
 
 /* Retina images */

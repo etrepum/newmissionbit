@@ -52,7 +52,8 @@ nav {
 }
 
 .section ul {
-    margin-left: -20px;
+    padding-left: 0px;
+    list-style-position: inside;
 }
 
 .homepage-image {
@@ -378,6 +379,25 @@ footer address td.icon {
     font-size: 15px;
     font-weight: bold;
     margin: 0 4px;
+}
+
+.programs .section {
+    clear: both;
+}
+
+.program .logo {
+    float: right;
+    max-width: 200px;
+}
+
+@media (max-width:991px) {
+    .program .logo {
+        max-width: 100px;
+    }
+}
+
+.programs .program ul {
+    list-style-type: none;
 }
 
 .color-blue { color: #3498db; }
